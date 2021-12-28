@@ -1,0 +1,10 @@
+Gera o arquivo package.json
+npm init -y
+
+Faz a instalação salvando a referencia do express no arquivo package.json com a versão 4.16.2
+Não alterando a versão nem do fix nem do minor
+
+npm i --save express@4.16.2 -E
+
+Salva o modulo apenas no ambiente de desenvolvimento
+npm i --save-dev
